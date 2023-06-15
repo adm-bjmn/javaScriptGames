@@ -13,3 +13,8 @@ my experience in python and asking chat GPT to translate my concept. I'm conciou
 I found that towards the end of this tutorial I was skipping ahead of the video and having to wait for the video to catch up with me when i got a little stuck for syntax. Thats a good sign. 
 Tomorrow I'll do another one. 
 I like JavaScript. 
+
+
+Legend of Zelda Memory Game - 15/06/2023
+Building the memory game demonstrated to really just how usefull its going to be to know a little bit more about javascript. learning about JS ability to create elements set my mind a racin' with the possibilities this will offer once I get compfortable with it. At this point when I'm thinking broardly about how to mesh Django and JS together and what strengths they bring I'm obvioudsly running into road blocks in my thinking becasue I dont know enough about JS but I'm hoping the further I go into JS as an isolated asset, the more ill be able to make assumptions about its power as a paired one. 
+I dont wish that I'd learned JS instead of Python, but I do wish I'd started learning JS sooner. 
