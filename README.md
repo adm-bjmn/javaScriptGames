@@ -18,3 +18,8 @@ I like JavaScript.
 Legend of Zelda Memory Game - 15/06/2023
 Building the memory game demonstrated to really just how usefull its going to be to know a little bit more about javascript. learning about JS ability to create elements set my mind a racin' with the possibilities this will offer once I get compfortable with it. At this point when I'm thinking broardly about how to mesh Django and JS together and what strengths they bring I'm obvioudsly running into road blocks in my thinking becasue I dont know enough about JS but I'm hoping the further I go into JS as an isolated asset, the more ill be able to make assumptions about its power as a paired one. 
 I dont wish that I'd learned JS instead of Python, but I do wish I'd started learning JS sooner. 
+
+
+
+Breakout  - 17/07/2023
+Working with similar concpts to the memeory game it was interesting to see how javascript can be used to both build and tear down parts of a wireframe with the use of conditional logic and for loops. This is obviuously well good. I managed to get well ahead of the tutorial on this one and then i just used it to catch up when I got stuck with something or couldnt think of a way to impliment soemthing. I thinki there might be some kind of mystical barrier happening where becasue I feel like I dont know the lagunage very well I'm second guessing my logical decisions aswell. I think this might be a confidence filter or some kind due to it being a new environment. I built the player and the logic for the movement with very little help from the tutorial, as well as end game logic. Good stuff.
