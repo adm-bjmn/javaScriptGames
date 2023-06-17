@@ -3,15 +3,19 @@ const blockWidth = 100
 const blockHeight = 20
 const userStart = [230, 5]
 const ballStart = [230, 27]
+const boardWidth = 560
+const boardHeight = 300
+
 let timerId
 let currentPosition = userStart
 let ballCurrent = ballStart
-
+let xDirection = 2
+let yDirection = 2
 
 class Block {
     constructor(xAxis, yAxis) {
         this.bottomLeft = [xAxis, yAxis]
-        this.bottomRight = [(xAxis + blockHeight), yAxis]
+        this.bottomRight = [(xAxis + blockWidth), yAxis]
         this.topLeft = [xAxis, (yAxis + blockHeight)]
         this.topRight = [(xAxis + blockWidth), (yAxis + blockHeight)]
 
@@ -90,9 +94,74 @@ function movePlayer(e) {
 document.addEventListener('keydown', movePlayer)
 
 function moveBall() {
-    ballCurrent[0] += 2
-    ballCurrent[1] += 2
+    ballCurrent[0] += xDirection
+    ballCurrent[1] += yDirection
     drawBall()
+    checkForCollisions()
 }
 
-timerId = setInterval(moveBall, 30) 
+timerId = setInterval(moveBall, 25)
+
+function checkForCollisions() {
+
+    for (let i = 0; i < blocks.length; i++) {
+        if (
+            (ballCurrent[0] > blocks[i].bottomLeft[0] && ballCurrent[0] < blocks[i].bottomRight[0]) &&
+            ((ballCurrent[1] + 20) > blocks[i].bottomLeft[1] && ballCurrent[1] < blocks[i].topLeft[1])
+        ) {
+            const allBlocks = Array.from(document.querySelectorAll('.block'))
+            allBlocks[i].classList.remove('block')
+            blocks.splice(i, 1)
+            changeDirection()
+
+            if (blocks.length === 0) {
+                clearInterval(timerId)
+                document.removeEventListener('keydown', movePlayer)
+                alert('You won...If thats what you want to call it.')
+            }
+        }
+    }
+
+    //check for wall colisions.
+    if (
+        ballCurrent[0] >= (boardWidth - 20) ||
+        ballCurrent[1] >= (boardHeight - 20) ||
+        ballCurrent[0] <= 0
+    ) {
+        changeDirection()
+    }
+    if (ballCurrent[1] <= 0) {
+        clearInterval(timerId)
+        document.removeEventListener('keydown', movePlayer)
+        alert('Ahh thats a shame. Prick.')
+    }
+    if (
+        ballCurrent[0] > currentPosition[0] &&
+        ballCurrent[0] < (currentPosition[0] + blockWidth) &&
+        ballCurrent[1] === (currentPosition[1] + blockHeight)) {
+        yDirection = 2
+    }
+
+}
+
+
+function changeDirection() {
+    if (xDirection === 2 && yDirection === 2) {
+        yDirection = -2
+        return
+    }
+    if (xDirection === 2 && yDirection === -2) {
+        xDirection = -2
+        return
+    }
+    if (xDirection === -2 && yDirection === -2) {
+        yDirection = 2
+        return
+    }
+    if (xDirection === -2 && yDirection === 2) {
+        xDirection = 2
+        return
+    }
+
+}
+
