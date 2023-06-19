@@ -23,3 +23,8 @@ I dont wish that I'd learned JS instead of Python, but I do wish I'd started lea
 
 Breakout  - 17/07/2023
 Working with similar concpts to the memeory game it was interesting to see how javascript can be used to both build and tear down parts of a wireframe with the use of conditional logic and for loops. This is obviuously well good. I managed to get well ahead of the tutorial on this one and then i just used it to catch up when I got stuck with something or couldnt think of a way to impliment soemthing. I thinki there might be some kind of mystical barrier happening where becasue I feel like I dont know the lagunage very well I'm second guessing my logical decisions aswell. I think this might be a confidence filter or some kind due to it being a new environment. I built the player and the logic for the movement with very little help from the tutorial, as well as end game logic. Good stuff.
+
+
+Frogger - 19/07/2023
+Building frogger worked more on the methods I've already used so far. It was good to repeat lots of things, I'm noticing I'm not remember the syntax as well as I did learning python but that might just be because I already know one language its messing me up. I was also trying to think half way though how I've navigated thorguh an array in python before and I couldnt for the life of me think it through so I definiely think somethings happening in my brain when I'm learning this new language. It might be an idea to do some python array work again like a minesweeper or soemthing just to see how quickly it happen to switch back to the old language like when expats go home for christmas or soemthing.
+Im not really that worried about it, I'll make something soon.
