@@ -1,0 +1,31 @@
+.grid {
+    position: absolute;
+    width: 140px;
+    height: 120px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.player-one {
+    border-radius: 10px;
+    background-color: darkmagenta;
+}
+
+.player-two {
+    border-radius: 10px;
+    background-color: forestgreen;
+}
+
+.ball {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: crimson;
+}
