@@ -26,5 +26,14 @@ Working with similar concpts to the memeory game it was interesting to see how j
 
 
 Frogger - 19/07/2023
-Building frogger worked more on the methods I've already used so far. It was good to repeat lots of things, I'm noticing I'm not remember the syntax as well as I did learning python but that might just be because I already know one language its messing me up. I was also trying to think half way though how I've navigated thorguh an array in python before and I couldnt for the life of me think it through so I definiely think somethings happening in my brain when I'm learning this new language. It might be an idea to do some python array work again like a minesweeper or soemthing just to see how quickly it happen to switch back to the old language like when expats go home for christmas or soemthing.
+Building frogger worked more on the methods I've already used so far. It was good to repeat lots of things, I'm noticing I'm not remember the syntax as well as I did learning python but that might just be because I already know one language its messing me up. I was also trying to think half way though how I've navigated thorguh an array in python before and I couldnt for the life of me think it through so I definiely think somethings happening in my brain when I'm learning this new language. It might be an idea to do some python array work again like a minesweeper or soemthing just to see how quickly it happen to switch back to the old language like when expats go home for christmas or something.
 Im not really that worried about it, I'll make something soon.
+
+
+Connect four - Space invaders - 21/06/2022
+Finished the last two games from the tuitorial. Over all ive really enjoyed it. Java script makes alot more sense to me now and I can appreciate the nature of a languwage with more syntax that python. I like that you have to state alot more, even though its amazing how much of the work python does for you, I can see how it can also be a benifit to be more esplicit in your code. I havent really bee nthinking bmuch about logic and structure with this tutorial as it was much more about syntac and methods for me but I think I know enough now to start thinking about it alot more. 
+I dont think I'll build anymore game type things but I do think that I'd like to try make some animations with the information this tutorial has taught me. 
+
+Ive left alot of the work un commented in order to be able to go back thorguh and comment it while looking through it an d understanding it on second pass.
+This is a taks for futre me that I have left deliberate to give me another opportunity to go throguh the code and understands it on a deeper level after trhe act of doing the tutorial. Will I actually do it ? who knows. I'm pretty excited about another idea already to be honest I want to get back into Processing again and see how p5JS differs to python. Even though Im probably going to start using raspberry PI for art projects. Lets see. 
+All i n all a great experience and I know alot more about Javascript now than I did a week ago. 
